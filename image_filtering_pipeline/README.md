@@ -2,7 +2,7 @@
 
 Automated dataset curation pipeline for person crops.
 
-## Assignment Goal
+## Goal
 Reduce manual dataset curation effort while enforcing these dataset requirements:
 
 1. Full-body person crops only (no cropped feet/hands)
@@ -55,15 +55,6 @@ Age stage is fail-closed for unknown age:
 2. If age crop is invalid/unavailable, image is rejected with manual-review reason.
 
 This prevents unknown-age images from being auto-accepted.
-
-## Data Paths
-Main dataset path:
-
-C:/Users/alank/OneDrive/Documents/image_filtering/image_filtering_pipeline/person-20260414T072836Z-3-001/person
-
-Labeled subset path:
-
-C:/Users/alank/OneDrive/Documents/image_filtering/image_filtering_pipeline/labeling_subset
 
 ## OpenCV Face Model Assets
 These files are auto-downloaded when missing:
